@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel=stylesheet href="stylesheet.css">
+        <title>Mridhula</title>
+    </head>
+    <body>
+        <h1>Send a Message!</h1> 
+        <div>
+            <input id="msg" type="text" autocomplete="off" autofocus="autofocus" onkeydown = "if (event.keyCode == 13) 
+                document.getElementById('send').click()" />
+            <button id="send">Send</button>
+            
+            
+            <p><div id="messages">Your text:</div></p>
+        </div>
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+        <script src="client.js"></script>
+    </body>
+</html>
