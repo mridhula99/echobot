@@ -1,16 +1,98 @@
 h1 {
-    font-family: monospace;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     color: navy;
 }
+#inputarea {
+    bottom: 10px;
+    
+    position: fixed; 
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-right: 500px;   
+}
 
-div {
-    text-align: center;
-    font-family: monospace;
+#sendbtn {
+    border-style: solid;
+    border-color: navy;
+    border-radius: 15px;
+    background-color: aliceblue;
+    float: right;
+    width: 60px;
+    height: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: navy;
 }
 
+#usertext { 
+    border-style: solid;
+    border-color: navy;
+    border-radius: 15px;
+    float: left;
+    width: 440px;
+    height: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: navy;
+}
 
+/* p {
+    border-style: solid;
+    border-radius: 15px;
+    width: max-content;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 1px;
+    background-color: aliceblue;
+} */
 
+/* #msgarea {
+    font-family: monospace;
+    color: navy;   
+} */
 
+#chatarea {
+    /* border-style: solid;
+    border-color: navy; */
+    /* text-align: center; */
+    /* border-style: solid;
+    border-radius: 15px; */
+    /* text-align: right; */
+    /* font-family: monospace;
+    color: navy; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
 
+#right {
+    font-family: monospace;
+    color: navy;
+    border-style: none;
+    border-radius: 15px;
+    width: max-content;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 1px;
+    background-color: aliceblue;
+    text-align: right;
+    margin-left: auto;
+}
+
+#left {
+    font-family: monospace;
+    color: grey;
+    text-align: left;
+    border-style: none;
+    border-radius: 15px;
+    width: max-content;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 1px;
+    background-color: rgb(196, 196, 196);
+    text-align: right;
+
+}
